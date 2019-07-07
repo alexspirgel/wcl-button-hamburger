@@ -1,5 +1,5 @@
 {
-  "name": "@wcl/button-hamburger",
+  "name": "@alexspirgel/wcl-button-hamburger",
   "version": "0.1.0",
   "description": "Web Component Library - Button Hamburger",
   "main": "dist/index.js",
