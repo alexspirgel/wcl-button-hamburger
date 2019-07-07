@@ -4,7 +4,8 @@
   "description": "Web Component Library - Button Hamburger",
   "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack": "webpack"
   },
   "repository": {
     "type": "git",
@@ -19,5 +20,13 @@
   "bugs": {
     "url": "https://github.com/alexspirgel/wcl-button-hamburger/issues"
   },
-  "homepage": "https://github.com/alexspirgel/wcl-button-hamburger#readme"
+  "homepage": "https://github.com/alexspirgel/wcl-button-hamburger#readme",
+  "devDependencies": {
+    "css-loader": "^3.0.0",
+    "html-loader": "^0.5.5",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^7.1.0",
+    "webpack": "^4.35.2",
+    "webpack-cli": "^3.3.5"
+  }
 }

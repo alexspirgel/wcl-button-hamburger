@@ -1,7 +1,7 @@
 // Import styles.
-import styles from '@component/src/styles/index.scss';
+import styles from '@component/src/styles/wcl-button-hamburger.scss';
 // Import template.
-import template from '@component/src/templates/index.html';
+import template from '@component/src/templates/wcl-button-hamburger.html';
 
 /**
  * Creates a new hamburger button.
@@ -49,7 +49,7 @@ class WCLButtonHamburger extends HTMLElement {
 		// If styles are passed.
 		if (styles) {
 			// Format styles within `<style>` tag.
-			let styleTag = `<style>${style}</style>`;
+			let styleTag = `<style>${styles}</style>`;
 			// Add `<style>` tag to template element.
 			templateElement.innerHTML += styleTag;
 		}
@@ -170,4 +170,4 @@ class WCLButtonHamburger extends HTMLElement {
 }
 
 // Export the class.
-module.exports = WCLButtonHamburger;
+export default WCLButtonHamburger;
