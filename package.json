@@ -1,0 +1,23 @@
+{
+  "name": "@wcl/button-hamburger",
+  "version": "0.1.0",
+  "description": "Web Component Library - Button Hamburger",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexspirgel/wcl-button-hamburger.git"
+  },
+  "keywords": [
+    "web-component",
+    "hamburger"
+  ],
+  "author": "Alexander Spirgel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alexspirgel/wcl-button-hamburger/issues"
+  },
+  "homepage": "https://github.com/alexspirgel/wcl-button-hamburger#readme"
+}
