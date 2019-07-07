@@ -1,8 +1,8 @@
 {
   "name": "@alexspirgel/wcl-button-hamburger",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "Web Component Library - Button Hamburger",
-  "main": "dist/index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "webpack": "webpack"
